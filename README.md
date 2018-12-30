@@ -2,7 +2,7 @@
 Android 崩溃分为 Java 崩溃和 Native崩溃两种。
 
 ### Java崩溃的知识点
-![Java崩溃](5D31BB62EF2A46D9BA8C6FB1E739D202)
+![Java崩溃](https://note.youdao.com/yws/public/resource/e41e224bd4b2a444fba146392244d8ea/3DB6860231FC4C09A93261A30B3C9360/5D31BB62EF2A46D9BA8C6FB1E739D202?ynotemdtimestamp=1546194914617)
 
 ### Java崩溃的原因
 简单来说，Java崩溃就是在Java代码中，出现了未被捕获的异常，导致应用程序异常退出。
@@ -10,7 +10,7 @@ Android 崩溃分为 Java 崩溃和 Native崩溃两种。
 #### Java异常的归类
 Java的异常可分为分为**可查的异常（checkedexceptions）**和**不可查的异常（unchecked exceptions）**<br>
 **常见的异常**可归类为如下图：
-![Throwable](D16594DAAED94251ADE3B6BE76B14F8F)
+![Throwable](https://note.youdao.com/yws/public/resource/e41e224bd4b2a444fba146392244d8ea/3DB6860231FC4C09A93261A30B3C9360/D16594DAAED94251ADE3B6BE76B14F8F?ynotemdtimestamp=1546194914617)
 其中Error和RuntimeException是unchecked exceptions，编译器默认无法通过对其处理。其余checkedexceptions，需要我们在代码中try-catch。
 
 #### 崩溃的捕捉
